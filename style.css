@@ -1,0 +1,59 @@
+* {
+  font-family: 'Gilroy',sans-serif;
+  transition: 0.3s all;
+  font-weight: 600;
+}
+
+body {
+  position: relative;
+}
+
+#app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  width: 200px;
+  box-shadow: 0 3px 15px grey;
+}
+
+input[type="text"] {
+  width: 185px;
+  border: 0;
+  color: #243849;
+  font-size: 28px;
+  padding: 5px 5px;
+  text-align: center;
+  
+}
+
+.grid {
+  display: flex;                       
+  flex-wrap: wrap;  
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cell {
+  flex: 33%;                       
+  height: 50px;
+  font-size: 18px;
+  border: none;
+}
+
+.num {
+  background-color: #243849;
+  color: #fff;
+  font-weight: 400;
+}
+
+.cell:hover{
+  background-color: #bebebe;
+}
+
+.op {
+  background-color: #979797;
+  color: #243849;
+}
+  
